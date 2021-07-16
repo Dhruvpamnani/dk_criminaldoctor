@@ -8,5 +8,3 @@ Installation:
 Put dk_criminaldoctor in you resources folder
 
 ensure dk_criminaldoctor in your server.cfg
-
-Credits to: ??? no clue
