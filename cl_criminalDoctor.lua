@@ -14,7 +14,7 @@ local Keys = {
 local Beds, CurrentBed, OnBed = {"prop_rub_couch02"}, nil, false
 
 local createdCamera = 0
-QBCore = nil
+local QBCore = exports['qb-core']:GetCoreObject()
   
 -- Citizen.CreateThread(function()
 --   while ESX == nil do
