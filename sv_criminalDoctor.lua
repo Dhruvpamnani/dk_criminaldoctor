@@ -1,6 +1,4 @@
-QBCore = nil
-
-TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
+local QBCore = exports['qb-core']:GetCoreObject()
 
 -- RegisterServerEvent("chip_cDoc:takeMoney")
 -- AddEventHandler("chip_cDoc:takeMoney", function()
